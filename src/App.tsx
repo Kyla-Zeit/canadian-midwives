@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import Home from "@/routes/index";
@@ -19,7 +19,9 @@ function NotFound() {
       <div className="max-w-md text-center">
         <p className="font-serif text-7xl text-primary">404</p>
         <h1 className="mt-4 font-serif text-3xl text-foreground">Page not found</h1>
-        <p className="mt-3 text-muted-foreground">The page you're looking for has moved or no longer exists.</p>
+        <p className="mt-3 text-muted-foreground">
+          The page you're looking for has moved or no longer exists.
+        </p>
       </div>
     </div>
   );
@@ -27,7 +29,7 @@ function NotFound() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="flex min-h-screen flex-col bg-background">
         <SiteHeader />
         <main className="flex-1">
@@ -48,6 +50,6 @@ export default function App() {
         </main>
         <SiteFooter />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

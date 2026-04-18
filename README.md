@@ -54,14 +54,14 @@ src/
 ---
 
 ## 🛠️ Tech Stack
-- Angular (Standalone SPA)
-- TypeScript 
+- React
+- Vite 
 - HTML5
-- CSS3 (component-scoped styles)
-- Angular Forms
+- CSS3
+- Framer Motion
 
 ---
 
 ## 🌐 Deployment
 Deployed using **GitHub Pages**.  
-Access it here → https://kyla-zeit.github.io/the-mitch-and-joe-show/
+Access it here → https://kyla-zeit.github.io/canadian-midwives/
